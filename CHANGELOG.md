@@ -1,6 +1,11 @@
 CHANGELOG
 =========
 
+# 3.0.0 / 2019-03-20
+
+- [IMPROVEMENT] Use 'include_tasks' instead of 'include' which bump minimum ansible version to 2.4 (thanks to [@rouge8][]).
+- [FIX] Make sure the Live Process agent and APM agent aren't started when datadog_enabled is set to false (thanks to [@pdecat][]).
+
 # 2.6.0 / 2019-03-05
 
 * [FEATURE] Add support for managing Windows hosts.
